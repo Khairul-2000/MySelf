@@ -2,26 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+  }
+  h2 {
+    @apply text-3xl font-bold;
+  }
+  h3 {
+    @apply text-2xl font-bold;
+  }
+  h4 {
+    @apply text-xl font-bold;
+  }
+  p {
+    @apply text-base;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .icon {
+    @apply h-10 w-10;
+  }
+
+  .card {
+    @apply z-40 h-[150px] w-[150px] rounded-md bg-gray-500 p-6 shadow-md shadow-white dark:shadow-lg dark:shadow-gray-700;
+  }
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .nav-link {
+    @apply rounded-md p-1 transition-all duration-300;
+  }
+  .nav-link:hover {
+    @apply bg-gray-200; /* Light gray background */
   }
 }
