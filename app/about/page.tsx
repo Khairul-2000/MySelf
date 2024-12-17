@@ -4,8 +4,8 @@ import myPhoto from "../images/photo3.jpg";
 const About = () => {
   return (
     <div>
-      <h1 className="text-5xl mb-[35px]">About Me👋</h1>
-      <div className="flex flex-row  gap-12 overflow-hidden object-cover object items-center mx-[35px]">
+      <h1 className="mb-[35px] text-5xl">About Me👋</h1>
+      <div className="object mx-[35px] flex flex-row items-center gap-12 overflow-hidden object-cover">
         <Image src={myPhoto} alt="khairul" width={400} height={400} />
         <div>
           <p className="text-2xl">
@@ -28,6 +28,9 @@ const About = () => {
             worked on exciting projects with amazing people. I'm always
             interested in a challenge and an opportunity to learn something new.
           </p>
+        </div>
+        <div>
+          <h2></h2>
         </div>
       </div>
     </div>

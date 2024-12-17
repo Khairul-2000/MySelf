@@ -168,7 +168,7 @@ export default function Home() {
         </h2>
         <p className="text-center text-gray-500">
           I learn those skill From my university and from online Resources like
-          Fronted Master, udemy etc.
+          Frontend Master, udemy etc.
         </p>
 
         <div className="flex flex-col items-center justify-start gap-5 sm:flex-row sm:overflow-x-scroll md:overflow-hidden">
