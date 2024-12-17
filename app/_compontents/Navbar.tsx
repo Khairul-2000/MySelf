@@ -30,7 +30,7 @@ const Navbar = () => {
         <Link href="/">KH.</Link>
       </h1>
 
-      <div className="flex flex-row items-center gap-8 font-semibold dark:text-white">
+      <div className="flex flex-row items-center gap-4 font-semibold dark:text-white sm:gap-8">
         <Link href="/" className="nav-link">
           Home
         </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
           Resume
         </Link>
       </div>
-      <div className="h-[40px] w-[40px] self-center rounded-full bg-[#e2e8f0] p-2 hover:bg-gray-400">
+      <div className="flex h-[40px] w-[40px] flex-row items-center justify-center self-center rounded-full bg-[#e2e8f0] p-2 hover:bg-gray-400">
         {darkMode ? (
           <button onClick={() => setDarkMode(!darkMode)}>
             <Image
