@@ -176,7 +176,7 @@ export default function Home() {
             Skills
             <div className="my-2 h-1 w-full rounded-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
           </h2>
-          <div className="grid gap-3 p-6 sm:grid-cols-5">
+          <div className="grid grid-cols-3 gap-3 p-6 sm:grid-cols-5">
             <div className="card">
               <Image
                 src="https://cdn-icons-png.freepik.com/256/5968/5968242.png?uid=R32684458&ga=GA1.1.34335686.1694932062&semt=ais_hybrid"
