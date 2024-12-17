@@ -5,8 +5,14 @@ const About = () => {
   return (
     <div>
       <h1 className="mb-[35px] text-5xl">About Me👋</h1>
-      <div className="object mx-[35px] flex flex-row items-center gap-12 overflow-hidden object-cover">
-        <Image src={myPhoto} alt="khairul" width={400} height={400} />
+      <div className="sm:object flex flex-col items-center gap-12 overflow-hidden object-cover sm:mx-[35px] sm:flex-row">
+        <Image
+          src={myPhoto}
+          alt="khairul"
+          width={400}
+          height={400}
+          className="rounded-md border-l-4 border-t-4 border-blue-400"
+        />
         <div>
           <p className="text-2xl">
             Hi! I'm Khairul, a Web Developer and Data Scientest from Dhaka,
