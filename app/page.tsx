@@ -233,120 +233,95 @@ export default function Home() {
         </div>
       </section>
       <div className="my-4 h-1 w-full rounded-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat vitae
-        voluptates voluptate esse eius. Maxime atque nemo laboriosam dolorum
-        voluptatibus libero ullam nulla voluptas repellat fuga ratione itaque
-        impedit error iure dolorem, recusandae rem quos. Doloremque accusamus
-        facere eum corporis hic, recusandae omnis aperiam, quisquam quas
-        voluptates, molestiae amet perspiciatis? Eum fugit aliquam explicabo
-        quisquam error distinctio eligendi veniam provident placeat impedit?
-        Quae nobis ea perferendis dolorum suscipit reprehenderit deleniti eaque,
-        culpa ad consequuntur veniam tempora sapiente impedit dolores eum
-        dignissimos, quasi temporibus porro. Illo, hic reiciendis? Commodi
-        fugiat corrupti iusto, iste quod labore perferendis recusandae assumenda
-        nemo eveniet quibusdam, consectetur qui omnis ea laudantium pariatur
-        dolorum cumque mollitia saepe, dolores necessitatibus? Necessitatibus
-        amet cupiditate dolorum numquam, dolore voluptatibus magni neque
-        doloribus totam libero voluptates labore eum omnis deleniti deserunt
-        earum in? Repudiandae esse nobis minus illo cumque quidem quis
-        necessitatibus reiciendis inventore incidunt voluptatum illum possimus
-        voluptas eos, vel qui ab facilis laboriosam tempora nemo deserunt?
-        Exercitationem perferendis aut placeat? Voluptas animi incidunt labore
-        obcaecati natus repellendus itaque est unde tenetur, modi quae error!
-        Ratione, dolorum delectus eos provident consequatur, obcaecati sapiente
-        dolorem voluptas veniam modi necessitatibus? Adipisci ipsam eaque vero
-        minima sit voluptatibus ullam nemo mollitia maiores, fugit sunt
-        laboriosam enim optio. Molestias illo omnis ad ea saepe suscipit
-        eveniet, similique incidunt vitae dolor distinctio minima sint? Atque et
-        repellat doloremque adipisci ad, recusandae autem quidem modi? Quas,
-        placeat veritatis facilis dolores sapiente aperiam aspernatur est velit
-        quis voluptas tempora necessitatibus quidem iste similique magnam, atque
-        consequatur! Odit similique repellat delectus iure ea consectetur quia
-        debitis non! Magnam voluptatem ratione similique pariatur dignissimos
-        animi facere molestias illum quisquam, alias, voluptatum, ut ipsa sed
-        ullam et repellendus asperiores fugiat assumenda beatae dolor.
-        Recusandae vel cum aspernatur enim quam, assumenda non accusamus optio
-        velit laudantium provident at ratione dignissimos, magni voluptates
-        cupiditate omnis animi. Repellat eaque molestiae temporibus, ad porro
-        expedita tempora officia alias id perspiciatis, sunt et quia tenetur eum
-        magnam iste nesciunt fuga quod molestias. Quasi magnam eveniet obcaecati
-        praesentium quis neque, laboriosam possimus corrupti assumenda id fugiat
-        accusantium aliquam deleniti iure! Dolore, quisquam. Neque veritatis
-        quisquam, reiciendis qui accusantium voluptate est vitae odit nam
-        mollitia blanditiis quaerat illum libero rem! Iusto tempore doloremque
-        libero fugit nihil soluta iure repudiandae, numquam beatae distinctio
-        dignissimos. Magni maiores esse dolor dicta eligendi distinctio ipsum
-        ipsam ab laudantium exercitationem laboriosam aliquam facilis,
-        repellendus molestiae rem adipisci recusandae dolorum consequuntur
-        reprehenderit in impedit magnam inventore ea! Aliquid quia, odit nemo
-        architecto cum enim unde atque pariatur magni officiis maxime a commodi
-        facere incidunt sint at inventore libero suscipit! Soluta qui tenetur
-        voluptatem esse, saepe est similique ratione doloribus consequatur!
-        Voluptatem provident, esse quibusdam veritatis molestiae eaque
-        doloribus, eos voluptas ratione blanditiis aperiam enim unde? Iure
-        eligendi unde nihil in molestiae beatae minus quia, illum esse, fugiat
-        itaque vitae doloremque impedit ipsum magni quasi quam dicta inventore?
-        Voluptas consequatur adipisci voluptatibus nesciunt velit dolorum
-        voluptate quibusdam repellendus cumque soluta rem hic molestias,
-        doloremque aspernatur? Error adipisci aut rem sint expedita ipsa! Non
-        voluptatem magnam saepe asperiores obcaecati nihil quos ut minus.
-        Repudiandae quia cumque ea magni ut inventore voluptatem praesentium
-        error, amet vitae fugit mollitia laboriosam eaque, perferendis
-        doloremque reprehenderit repellendus neque rem esse, perspiciatis
-        blanditiis! Quam debitis, aspernatur ea aperiam eius unde distinctio
-        numquam! Doloribus temporibus sint vel dolor, delectus id quaerat
-        explicabo quod atque animi laborum rerum corrupti corporis autem omnis
-        tempore ea. Libero nihil cum perspiciatis nulla temporibus officia
-        reprehenderit, neque ad eaque qui quaerat repellat doloremque quasi eos.
-        Quae unde deserunt, id aliquam amet consequatur quod quisquam
-        exercitationem obcaecati. Dolor placeat sequi aspernatur nisi provident
-        alias quam odit voluptates pariatur, reprehenderit rem quae laboriosam
-        voluptatem iusto exercitationem doloribus reiciendis, quas, labore
-        similique voluptatibus! Nam cum, temporibus voluptate porro consectetur
-        in at sint debitis ipsa eos natus iste pariatur quod magni architecto
-        fugit aperiam placeat? Blanditiis recusandae dolores quam minus
-        inventore ipsam aliquam unde qui ut aut aliquid a corrupti, ab nostrum
-        fugiat eveniet architecto itaque praesentium possimus excepturi tempore
-        enim obcaecati quae. Nemo, fugiat dolores praesentium quos at, provident
-        qui in cum incidunt inventore, perferendis libero recusandae eum.
-        Delectus cumque qui et libero distinctio soluta, est, fugiat, sint
-        doloribus nesciunt dolorem voluptatibus vitae odit laboriosam id minus
-        recusandae voluptas? Iste reiciendis a ratione atque quae, quas totam
-        commodi aliquam consectetur ipsam! Expedita maiores id, provident
-        temporibus tenetur culpa eum totam similique fugiat et quasi quam
-        dolorum minus dolores voluptates quos iure dolor asperiores
-        reprehenderit, aliquam iusto eveniet unde. Voluptatibus quod harum nihil
-        sunt necessitatibus laudantium. Ullam explicabo dicta alias placeat ipsa
-        impedit expedita fugiat ex suscipit earum illum deserunt soluta enim
-        incidunt iure, molestias facere veritatis aliquam veniam voluptate ea
-        aliquid aut! Quasi vel, odio quis aut ad necessitatibus accusantium.
-        Voluptate, consectetur exercitationem odit cum facere, nulla, corporis
-        dignissimos enim voluptatibus dolor excepturi nostrum voluptas beatae
-        officia! Culpa ipsum reprehenderit reiciendis quae ea possimus aut ut
-        laborum voluptas consequatur. Impedit illum sequi perspiciatis assumenda
-        praesentium fugiat, enim similique ex nesciunt fugit consequatur
-        expedita non veritatis eveniet rerum ipsam iure? Vitae earum eos
-        suscipit unde reiciendis architecto, voluptatem harum nihil atque,
-        tenetur iure optio officia, modi inventore a. Nam sunt soluta laborum
-        culpa perferendis! Aut sit doloribus nam consequuntur tempore asperiores
-        unde culpa veniam, molestiae, fugiat blanditiis cum nobis ab. Laudantium
-        ab alias consectetur aliquid dolorem accusamus fugit saepe, tenetur ipsa
-        aliquam, maiores repellat error debitis iusto reiciendis voluptate
-        repudiandae! Explicabo officiis nulla maiores! Iste nihil quis velit
-        vel. Animi blanditiis minima doloribus repudiandae molestiae accusantium
-        corrupti voluptatibus cum iusto autem harum, quasi explicabo saepe
-        libero, vel numquam? Nemo, quisquam possimus? Eveniet maxime qui
-        accusamus, est natus doloribus ad corporis nostrum, maiores nam
-        consectetur praesentium pariatur. Repellat, quas provident neque
-        blanditiis saepe autem, assumenda eaque sint iste reiciendis voluptatum!
-        Doloremque illo at, aspernatur culpa dolores rerum non pariatur fuga
-        itaque praesentium error ut molestias laboriosam exercitationem aperiam
-        modi facilis nostrum architecto aliquid quis, perferendis quos
-        explicabo? Atque, illo esse. Officia praesentium aspernatur ea
-        asperiores esse deserunt nemo perferendis maiores, veritatis sunt non
-        nostrum id dolores tempora, totam voluptatum sapiente debitis.
-      </p>
+      {/* Certification*/}
+      <section>
+        <h2 className="mb-10">Certifications</h2>
+        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <div className="flex flex-row items-center justify-center gap-6">
+            <Image
+              src="https://frontendmasters.com/static-assets/core/m-transparent.webp"
+              alt="fronted masters"
+              width={200}
+              height={200}
+              className="h-[140px] w-[140px] sm:h-[200px] sm:w-[200px]"
+            />
+            <div>
+              <h3>Course Completed: API Design in Node.js, v4</h3>
+              <p>Frontend Masters</p>
+              <p>Issued Oct 2024 </p>
+              <a
+                target="_blank"
+                href="https://static.frontendmasters.com/ud/c/c8c76b262a/AYUIUpryxz/api-design-nodejs-v4.pdf"
+                className="my-2 flex w-44 flex-row gap-2 rounded-full border-2 border-black bg-yellow-50 p-1 px-3 dark:text-red-400"
+              >
+                Show credential
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/2901/2901214.png"
+                  alt="link"
+                  width={20}
+                  height={20}
+                />
+              </a>
+            </div>
+          </div>
+          <div className="flex flex-row items-center justify-center gap-6">
+            <Image
+              src="https://frontendmasters.com/static-assets/core/m-transparent.webp"
+              alt="fronted masters"
+              width={200}
+              height={200}
+              className="h-[140px] w-[140px] sm:h-[200px] sm:w-[200px]"
+            />
+            <div>
+              <h3>Course Completed: Introduction to Next.js 13 , v3</h3>
+              <p>Frontend Masters</p>
+              <p>Issued Oct 2024 </p>
+              <a
+                target="_blank"
+                href="https://static.frontendmasters.com/ud/c/c8c76b262a/IUcTZCIWvj/next-js-v3.pdf"
+                className="my-2 flex w-44 flex-row gap-2 rounded-full border-2 border-black bg-yellow-50 p-1 px-3 dark:text-red-400"
+              >
+                Show credential
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/2901/2901214.png"
+                  alt="link"
+                  width={20}
+                  height={20}
+                />
+              </a>
+            </div>
+          </div>
+          <div className="flex flex-row items-center justify-center gap-6">
+            <Image
+              src="https://frontendmasters.com/static-assets/core/m-transparent.webp"
+              alt="fronted masters"
+              width={200}
+              height={200}
+              className="h-[140px] w-[140px] sm:h-[200px] sm:w-[200px]"
+            />
+            <div>
+              <h3 className="">
+                Course Completed: Introduction to Node.js, v3
+              </h3>
+              <p>Frontend Masters</p>
+              <p>Issued Sep 2024 </p>
+              <a
+                target="_blank"
+                href="https://static.frontendmasters.com/ud/c/c8c76b262a/ehyaBEyiou/node-js-v3.pdf"
+                className="my-2 flex w-44 flex-row gap-2 rounded-full border-2 border-black bg-yellow-50 p-1 px-3 dark:text-red-400"
+              >
+                Show credential
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/2901/2901214.png"
+                  alt="link"
+                  width={20}
+                  height={20}
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
