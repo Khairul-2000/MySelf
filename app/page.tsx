@@ -97,10 +97,10 @@ export default function Home() {
                 className="rounded-md"
               ></Image>
               <div>
-                <h3>Back-Roads</h3>
+                <h3>Pet Grooming</h3>
                 <p>
-                  A simple HTML and CSS project that showcases a modern and
-                  sleek design for a tea shop. Built with Flexbox and Grid.
+                  A simple NextJs project that showcases a modern and sleek
+                  design for a Pet Grooming. Built with Tailwindcss and Motion.
                 </p>
               </div>
             </div>
