@@ -12,6 +12,7 @@ import python from "../images/python.png";
 import c from "../images/c.png";
 import cplus from "../images/cplus.png";
 import mongo from "../images/Mongodb.png";
+import petgrooming from "../images/PetGrooming.png";
 
 export const photos = {
   project1,
@@ -28,4 +29,5 @@ export const photos = {
   c,
   cplus,
   mongo,
+  petgrooming,
 };

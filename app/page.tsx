@@ -85,6 +85,27 @@ export default function Home() {
             </div>
           </Link>
           <Link
+            href="https://github.com/Khairul-2000/PetGrooming"
+            target="_blank"
+          >
+            <div className="max-w-[400px] cursor-pointer">
+              <Image
+                src={photos.petgrooming}
+                alt="project-1"
+                height={500}
+                width={500}
+                className="rounded-md"
+              ></Image>
+              <div>
+                <h3>Back-Roads</h3>
+                <p>
+                  A simple HTML and CSS project that showcases a modern and
+                  sleek design for a tea shop. Built with Flexbox and Grid.
+                </p>
+              </div>
+            </div>
+          </Link>
+          <Link
             href="https://github.com/Khairul-2000/Back-Roads"
             target="_blank"
           >
