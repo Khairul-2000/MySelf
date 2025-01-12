@@ -25,7 +25,7 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <div className="z-30 mx-auto mb-8 mt-8 flex max-w-[500px] flex-row items-center justify-between rounded-full border-b border-[#edf2f7] bg-[#ffffff] p-2 shadow-md shadow-white dark:bg-gray-900 dark:shadow-none">
+    <div className="shadow-dark z-30 mx-auto mb-8 mt-8 flex max-w-[500px] flex-row items-center justify-between rounded-full border-b border-[#edf2f7] bg-gray-400 p-2 shadow-lg dark:bg-gray-900 dark:shadow-sm dark:shadow-white">
       <h1 className="flex h-[40px] w-[40px] flex-row items-center justify-center self-center rounded-full bg-[#333333] p-2 text-sm text-white dark:bg-white dark:text-black">
         <Link href="/">KH.</Link>
       </h1>

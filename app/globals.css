@@ -41,6 +41,10 @@
   .card {
     @apply z-40 h-[80px] w-[80px] rounded-md bg-gray-500 p-6 shadow-md shadow-white dark:shadow-lg dark:shadow-gray-700 sm:h-[150px] sm:w-[150px];
   }
+
+  .project {
+    @apply flex max-w-[400px] flex-col items-center justify-center text-center;
+  }
 }
 
 @layer utilities {

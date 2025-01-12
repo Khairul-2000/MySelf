@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { photos } from "./images/photo";
+import { FaGithub } from "react-icons/fa";
+import { BsBrowserChrome } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -19,113 +21,154 @@ export default function Home() {
       <section className="my-6">
         <h2>Projects</h2>
         <div className="mt-6 grid items-center justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <Link
-            href="https://github.com/Khairul-2000/OrganizeMe"
-            target="_blank"
-          >
-            <div className="max-w-[400px] cursor-pointer">
-              <Image
-                src={photos.project1}
-                alt="project-1"
-                height={500}
-                width={500}
-                className="w-full rounded-md"
-              ></Image>
+          <div className="project">
+            <Link
+              href="https://github.com/Khairul-2000/OrganizeMe"
+              target="_blank"
+              className="cursor-pointer"
+            >
               <div>
-                <h3>OrganizeMe</h3>
-                <p>
-                  A simple and secure full-stack to-do app built with React
-                  (Vite) on the frontend and Express.js on the backend, using
-                  JWT for authentication.
-                </p>
+                <Image
+                  src={photos.project1}
+                  alt="project-1"
+                  height={300}
+                  width={300}
+                  className="mb-[15px] rounded-md"
+                />
               </div>
+            </Link>
+            <div className="flex flex-col items-center justify-center">
+              <Link
+                href="https://organize-me-khairul-islams-projects-c9bdf592.vercel.app/"
+                className="animate-spin cursor-pointer"
+                target="_blank"
+              >
+                <BsBrowserChrome size={25} />
+              </Link>
+
+              <h3>OrganizeMe</h3>
+              <p>
+                A simple and secure full-stack to-do app built with React (Vite)
+                on the frontend and Express.js on the backend, using JWT for
+                authentication.
+              </p>
             </div>
-          </Link>
-          <Link
-            href="https://github.com/Khairul-2000/Flowmazon"
-            target="_blank"
-          >
-            <div className="max-w-[400px] cursor-pointer">
+          </div>
+
+          <div className="project">
+            <Link
+              href="https://github.com/Khairul-2000/Flowmazon"
+              target="_blank"
+            >
               <Image
                 src={photos.project2}
                 alt="project-1"
-                height={500}
-                width={500}
-                className="rounded-md"
+                height={300}
+                width={300}
+                className="mb-[15px] rounded-md"
               ></Image>
-              <div>
-                <h3>Flowmazon</h3>
-                <p>
-                  Flowmazon is a full-featured e-commerce website built using
-                  the latest technologies, offering a modern and responsive
-                  shopping experience.
-                </p>
-              </div>
+            </Link>
+            <div className="flex flex-col items-center justify-center">
+              <Link
+                href="https://flowmazon-black.vercel.app/"
+                className="animate-spin cursor-pointer"
+                target="_blank"
+              >
+                <BsBrowserChrome size={25} />
+              </Link>
+              <h3>Flowmazon</h3>
+              <p>
+                Flowmazon is a full-featured e-commerce website built using the
+                latest technologies, offering a modern and responsive shopping
+                experience.
+              </p>
             </div>
-          </Link>
-          <Link
-            href="https://github.com/Khairul-2000/Tea-Station"
-            target="_blank"
-          >
-            <div className="max-w-[400px] cursor-pointer">
+          </div>
+
+          <div className="project">
+            <Link
+              href="https://github.com/Khairul-2000/Tea-Station"
+              target="_blank"
+            >
               <Image
                 src={photos.project3}
                 alt="project-1"
-                height={500}
-                width={500}
-                className="rounded-md"
+                height={300}
+                width={300}
+                className="mb-[15px] rounded-md"
               ></Image>
-              <div>
-                <h3>Tea-Station</h3>
-                <p>
-                  A simple HTML and CSS project that showcases a modern and
-                  sleek design for a tea shop. Built with Flexbox and Grid.
-                </p>
-              </div>
+            </Link>
+            <div className="flex flex-col items-center justify-center">
+              <Link
+                href="https://fabulous-caramel-876aba.netlify.app/"
+                className="animate-spin cursor-pointer"
+                target="_blank"
+              >
+                <BsBrowserChrome size={25} />
+              </Link>
+              <h3>Tea-Station</h3>
+              <p>
+                A simple HTML and CSS project that showcases a modern and sleek
+                design for a tea shop. Built with Flexbox and Grid.
+              </p>
             </div>
-          </Link>
-          <Link
-            href="https://github.com/Khairul-2000/PetGrooming"
-            target="_blank"
-          >
-            <div className="max-w-[400px] cursor-pointer">
+          </div>
+          <div className="project">
+            <Link
+              href="https://github.com/Khairul-2000/PetGrooming"
+              target="_blank"
+            >
               <Image
                 src={photos.petgrooming}
                 alt="project-1"
-                height={500}
-                width={500}
-                className="rounded-md"
+                height={300}
+                width={300}
+                className="mb-[15px] rounded-md"
               ></Image>
-              <div>
-                <h3>Pet Grooming</h3>
-                <p>
-                  A simple NextJs project that showcases a modern and sleek
-                  design for a Pet Grooming. Built with Tailwindcss and Motion.
-                </p>
-              </div>
+            </Link>
+            <div className="flex flex-col items-center justify-center">
+              <Link
+                href="https://pet-grooming-peach.vercel.app/"
+                className="animate-spin cursor-pointer"
+                target="_blank"
+              >
+                <BsBrowserChrome size={25} />
+              </Link>
+              <h3>Pet Grooming</h3>
+              <p>
+                A simple NextJs project that showcases a modern and sleek design
+                for a Pet Grooming. Built with Tailwindcss and Motion.
+              </p>
             </div>
-          </Link>
-          <Link
-            href="https://github.com/Khairul-2000/Back-Roads"
-            target="_blank"
-          >
-            <div className="max-w-[400px] cursor-pointer">
+          </div>
+          <div className="project">
+            <Link
+              href="https://github.com/Khairul-2000/Back-Roads"
+              target="_blank"
+            >
               <Image
                 src={photos.project4}
                 alt="project-1"
-                height={500}
-                width={500}
-                className="rounded-md"
+                height={300}
+                width={300}
+                className="mb-[15px] rounded-md"
               ></Image>
-              <div>
-                <h3>Back-Roads</h3>
-                <p>
-                  A simple HTML and CSS project that showcases a modern and
-                  sleek design for a tea shop. Built with Flexbox and Grid.
-                </p>
-              </div>
+            </Link>
+            <div className="flex flex-col items-center justify-center">
+              <Link
+                href="https://back-roads-webapp.netlify.app/"
+                className="animate-spin cursor-pointer"
+                target="_blank"
+              >
+                <BsBrowserChrome size={25} />
+              </Link>
+              <h3>Back-Roads</h3>
+              <p>
+                A simple HTML and CSS project that showcases a modern and sleek
+                design for a tea shop. Built with Flexbox and Grid.
+              </p>
             </div>
-          </Link>
+          </div>
         </div>
       </section>
 
