@@ -76,7 +76,7 @@ const EducationCard = ({
           transform: "translateZ(75px)",
           transformStyle: "preserve-3d",
         }}
-        className="absolute inset-4 grid place-content-center rounded-xl bg-white shadow-lg"
+        className="absolute inset-4 grid place-content-center rounded-xl bg-white shadow-lg dark:bg-[#14080E]"
       >
         <FiMousePointer
           style={{
@@ -88,7 +88,7 @@ const EducationCard = ({
           style={{
             transform: "translateZ(50px)",
           }}
-          className="text-center text-2xl font-bold text-black"
+          className="text-center text-2xl font-bold text-black dark:text-white"
         >
           <div>
             <h1 className="mb-[10px] text-xl text-purple-500">{title}</h1>
