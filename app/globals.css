@@ -29,7 +29,7 @@
     @apply text-xl font-bold;
   }
   p {
-    @apply text-base;
+    @apply text-base font-normal;
   }
 }
 

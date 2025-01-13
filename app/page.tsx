@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { photos } from "./images/photo";
-import { FaGithub } from "react-icons/fa";
 import { BsBrowserChrome } from "react-icons/bs";
+import EducationCard from "./_compontents/EducationCard";
 
 export default function Home() {
   return (
@@ -176,52 +176,28 @@ export default function Home() {
       {/* Education */}
       <section>
         <h2 className="mb-10">Education</h2>
-        <div className="mb-7 flex flex-row gap-6">
-          <div className="h-28 w-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
-          <div className="flex flex-col justify-between">
-            <h4 className="text-green-500">2020</h4>
-            <h4 className="text-purple-500">2024</h4>
-          </div>
-          <div className="my-auto">
-            <h3>East West University</h3>
-            <p>BSc in Computer Science and Engineering</p>
-            <div className="mt-2 flex items-center gap-2">
-              <span className="rounded-full bg-green-100 px-2 py-1 text-xs font-medium text-green-600">
-                CGPA: 3.48/4.0
-              </span>
-              <span className="text-sm italic text-gray-500 dark:text-white">
-                "Medha Lalon Scholarship"
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="mb-7 flex flex-row gap-6">
-          <div className="h-28 w-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
-          <div className="flex flex-col justify-between">
-            <h4 className="text-green-500">2018</h4>
-            <h4 className="text-purple-500">2019</h4>
-          </div>
-          <div className="my-auto">
-            <h3>Dr. Mahbubur Rahman Mollah College </h3>
-            <p>Higher Secondary Certificate</p>
-            <span className="rounded-full bg-green-100 px-2 py-1 text-xs font-medium text-green-600">
-              GPA: 5.0/5.0
-            </span>
-          </div>
-        </div>
-        <div className="mb-7 flex flex-row gap-6">
-          <div className="h-28 w-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
-          <div className="flex flex-col justify-between">
-            <h4 className="text-green-500">2016</h4>
-            <h4 className="text-purple-500">2019</h4>
-          </div>
-          <div className="my-auto">
-            <h3>Motijheel Model High School And Collage </h3>
-            <p>Secondary School Certificate</p>
-            <span className="rounded-full bg-green-100 px-2 py-1 text-xs font-medium text-green-600">
-              GPA: 5.0/5.0
-            </span>
-          </div>
+        <div className="grid grid-cols-3 p-10">
+          <EducationCard
+            resultTitle="CGPA"
+            title="East West University"
+            descrition="Computer Science and Engineering"
+            result="3.48"
+            outOff="4.0"
+          />
+          <EducationCard
+            resultTitle="GPA"
+            title="Dr. Mahbubur Rahman Mollah College"
+            descrition="Higher Secondary Certificate"
+            result="5.0"
+            outOff="5.0"
+          />
+          <EducationCard
+            resultTitle="GPA"
+            title="Motijheel Model High School And Collage"
+            descrition="Secondary School Certificate"
+            result="5.0"
+            outOff="5.0"
+          />
         </div>
       </section>
       <div className="my-4 h-1 w-full rounded-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
