@@ -176,7 +176,7 @@ export default function Home() {
       {/* Education */}
       <section>
         <h2 className="mb-10">Education</h2>
-        <div className="grid grid-cols-3 p-10">
+        <div className="grid grid-cols-1 p-10 xl:grid-cols-3">
           <EducationCard
             resultTitle="CGPA"
             title="East West University"
