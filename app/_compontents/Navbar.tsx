@@ -1,11 +1,19 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { Cursor, Tab } from "./SideTabs";
+import { motion } from "framer-motion";
+import { MdDarkMode } from "react-icons/md";
+import { MdOutlineWbSunny } from "react-icons/md";
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
+  const [position, setPosition] = useState({
+    left: 0,
+    width: 0,
+    opacity: 0,
+  });
 
   useEffect(() => {
     const theme = localStorage.getItem("theme");
@@ -30,40 +38,37 @@ const Navbar = () => {
         <Link href="/">KH.</Link>
       </h1>
 
-      <div className="flex flex-row items-center gap-4 font-semibold dark:text-white sm:gap-8">
-        <Link href="/" className="nav-link">
-          Home
-        </Link>
-        <Link href="/about" className="nav-link">
-          About
-        </Link>
-        <Link
-          href="about.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="nav-link"
-        >
-          Resume
-        </Link>
-      </div>
-      <div className="flex h-[40px] w-[40px] flex-row items-center justify-center self-center rounded-full bg-[#e2e8f0] p-2 hover:bg-gray-400">
+      <motion.div
+        className="relative flex flex-row items-center gap-4 text-xl font-semibold dark:text-white sm:gap-8"
+        onMouseLeave={() => {
+          setPosition((pv) => ({
+            ...pv,
+            opacity: 0,
+          }));
+        }}
+      >
+        <Tab setPosition={setPosition}>
+          <Link href="/">Home</Link>
+        </Tab>
+        <Tab setPosition={setPosition}>
+          <Link href="/about">About</Link>
+        </Tab>
+        <Tab setPosition={setPosition}>
+          <Link href="about.pdf" target="_blank" rel="noopener noreferrer">
+            Resume
+          </Link>
+        </Tab>
+
+        <Cursor position={position} />
+      </motion.div>
+      <div className="flex h-[40px] w-[40px] flex-row items-center justify-center self-center rounded-full bg-[#e2e8f0] p-2 transition-all duration-[0.5s] ease-in-out hover:bg-transparent">
         {darkMode ? (
           <button onClick={() => setDarkMode(!darkMode)}>
-            <Image
-              src="https://cdn-icons-png.flaticon.com/128/13426/13426124.png"
-              alt="logo"
-              width={30}
-              height={30}
-            />
+            <MdOutlineWbSunny size={25} color="black" />
           </button>
         ) : (
           <button onClick={() => setDarkMode(!darkMode)}>
-            <Image
-              src="https://cdn-icons-png.flaticon.com/512/6714/6714978.png"
-              alt="logo"
-              width={30}
-              height={30}
-            />
+            <MdDarkMode size={25} />
           </button>
         )}
       </div>
