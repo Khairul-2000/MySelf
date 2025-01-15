@@ -61,10 +61,10 @@ const Navbar = () => {
 
         <Cursor position={position} />
       </motion.div>
-      <div className="flex h-[40px] w-[40px] flex-row items-center justify-center self-center rounded-full bg-[#e2e8f0] p-2 transition-all duration-[0.5s] ease-in-out hover:bg-transparent">
+      <div className="flex h-[42px] w-[42px] flex-row content-center items-center justify-center self-center rounded-full bg-[#e2e8f0] p-2 transition-all duration-[0.5s] ease-in-out hover:bg-transparent">
         {darkMode ? (
           <button onClick={() => setDarkMode(!darkMode)}>
-            <MdOutlineWbSunny size={25} color="black" />
+            <MdOutlineWbSunny size={25} color="white" />
           </button>
         ) : (
           <button onClick={() => setDarkMode(!darkMode)}>
