@@ -14,18 +14,23 @@ export default function Home() {
 
   setTimeout(() => {
     setLoading(false);
-  }, 2200);
+  }, 5000);
   return (
     <div>
       {loading ? (
         <motion.div
           className={`absolute left-0 top-0 z-30 m-0 h-full w-full bg-black p-0 text-center text-white`}
         >
-          <div className="mt-[200px] xl:mt-[500px]">
+          <div className="mt-[200px] text-cyan-500 xl:mt-[500px]">
             <TypeAnimation
-              sequence={[`Hi, Welcome To My Web Site 🎁`, 1000]}
-              speed={30}
-              style={{ fontSize: "5rem" }}
+              sequence={[
+                `Hi, Welcome To My WebSite 🎁`,
+                400,
+                `Thank you for visiting. Explore and enjoy!`,
+                400,
+              ]}
+              speed={60}
+              style={{ fontSize: "3rem" }}
               repeat={Infinity}
             />
           </div>
