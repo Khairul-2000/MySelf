@@ -28,14 +28,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-[#171923]`}
+        className={`${geistSans.variable} ${geistMono.variable} relative antialiased dark:bg-[#171923]`}
       >
-        <div className="lg:max-w-[1214px] lg:mx-auto   min-w-[240px] mx-4 dark:text-white">
+        <div className="mx-4 flex min-w-[240px] flex-col dark:text-white lg:mx-auto lg:max-w-[1214px]">
           <Navbar />
 
           <main>{children}</main>
+          <Footer />
         </div>
-        <Footer />
       </body>
     </html>
   );

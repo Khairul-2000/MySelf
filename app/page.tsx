@@ -1,12 +1,37 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { photos } from "./images/photo";
 import { BsBrowserChrome } from "react-icons/bs";
 import EducationCard from "./_compontents/EducationCard";
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 2200);
   return (
     <div>
+      {loading ? (
+        <motion.div
+          className={`absolute left-0 top-0 z-30 m-0 h-full w-full bg-black p-0 text-center text-white`}
+        >
+          <div className="mt-[500px]">
+            <TypeAnimation
+              sequence={[`Hi, Welcome To My Web Site 🎁`, 1000]}
+              speed={30}
+              style={{ fontSize: "5rem" }}
+              repeat={Infinity}
+            />
+          </div>
+        </motion.div>
+      ) : null}
+
       {/* about section */}
       <div className="my-[60px]">
         <h1 className="animate-typewriter overflow-hidden whitespace-nowrap text-2xl font-bold">
@@ -171,7 +196,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <div className="my-4 h-1 w-full rounded-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
       {/* Education */}
       <section>
