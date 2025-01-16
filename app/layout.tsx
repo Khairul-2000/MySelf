@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} relative antialiased dark:bg-[#171923]`}
       >
-        <div className="mx-4 flex min-w-[240px] flex-col dark:text-white lg:mx-auto lg:max-w-[1214px]">
+        <div className="mx-4 flex flex-col dark:text-white lg:mx-auto lg:max-w-[1214px]">
           <Navbar />
 
           <main>{children}</main>
