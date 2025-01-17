@@ -15,6 +15,7 @@ export default function Home() {
   setTimeout(() => {
     setLoading(false);
   }, 5000);
+
   return (
     <div>
       {loading ? (
