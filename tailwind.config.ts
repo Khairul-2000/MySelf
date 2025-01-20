@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ["var(--font-fredoka)", "serif"],
+      },
       keyframes: {
         typing: {
           "0%": { width: "0%" },

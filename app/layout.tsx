@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./_compontents/Navbar";
 import Footer from "./_compontents/Footer";
+import Animation from "./_compontents/LoadingAnimation";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,10 +32,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} relative antialiased dark:bg-[#171923]`}
       >
         <div className="mx-4 flex flex-col dark:text-white lg:mx-auto lg:max-w-[1214px]">
-          <Navbar />
+          <Animation>
+            <Navbar />
 
-          <main>{children}</main>
-          <Footer />
+            <main>{children}</main>
+            <Footer />
+          </Animation>
         </div>
       </body>
     </html>
