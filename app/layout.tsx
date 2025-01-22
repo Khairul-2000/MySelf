@@ -33,7 +33,9 @@ export default function RootLayout({
       >
         <div className="mx-4 flex flex-col dark:text-white lg:mx-auto lg:max-w-[1214px]">
           <Animation>
-            <Navbar />
+            <div className="sticky left-0 right-0 top-0 z-30 flex flex-col items-center justify-center">
+              <Navbar />
+            </div>
 
             <main>{children}</main>
             <Footer />
