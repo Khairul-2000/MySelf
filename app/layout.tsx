@@ -41,8 +41,11 @@ export default function RootLayout({
 
             <main>{children}</main>
             <Link href="https://you-editor.vercel.app/" target="_blank">
-              <div className="fixed bottom-20 right-20 z-30 flex h-[80px] w-[80px] cursor-pointer flex-col items-center justify-center rounded-full bg-red-400">
-                <span className="text-sm font-semibold"> CodeEditor</span>{" "}
+              <div className="fixed bottom-20 right-0 z-30 mr-4 flex h-[80px] w-[30px] cursor-pointer flex-col items-center justify-center rounded-full bg-red-400 bg-none sm:right-20 sm:mr-0 sm:w-[80px]">
+                <span className="overflow-hidden text-sm font-semibold opacity-0 sm:opacity-100">
+                  {" "}
+                  CodeEditor
+                </span>{" "}
                 <FiCodepen size={25} />
               </div>
             </Link>
