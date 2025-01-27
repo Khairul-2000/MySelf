@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "./_compontents/Navbar";
 import Footer from "./_compontents/Footer";
 import Animation from "./_compontents/LoadingAnimation";
+import { FiCodepen } from "react-icons/fi";
+import Link from "next/link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -38,6 +40,12 @@ export default function RootLayout({
             </div>
 
             <main>{children}</main>
+            <Link href="https://you-editor.vercel.app/" target="_blank">
+              <div className="fixed bottom-20 right-20 z-30 flex h-[80px] w-[80px] cursor-pointer flex-col items-center justify-center rounded-full bg-red-400">
+                <span className="text-sm font-semibold"> CodeEditor</span>{" "}
+                <FiCodepen size={25} />
+              </div>
+            </Link>
             <Footer />
           </Animation>
         </div>
