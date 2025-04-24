@@ -22,7 +22,7 @@ const About = () => {
             <p className="text-2xl xl:w-[800px]">
               Hi! I'm Khairul, a{" "}
               <span className="font-bold text-cyan-500">
-                Web Developer and Data Scientest
+                Full Stack Developer and AI Engineer🚀
               </span>{" "}
               from Dhaka, Bangladesh. I enjoy creating things that live on the
               internet, whether that be websites, applications, or anything in
@@ -33,8 +33,8 @@ const About = () => {
               I'm a passionate learner who's always willing to learn and work
               across technologies and platforms. I love working on projects that
               challenge me to learn new things and are focused on customer
-              needs. I'm currently working in home and creating thing which i
-              love with Coding and Creating AI models for my own projects.
+              needs. I'm currently working @SparkTech Agency and creating thing which i
+              love with Coding and Creating AI system for client.
             </p>
             <p className="mt-4 text-2xl xl:w-[800px]">
               My educational background includes an BSc in Computer Science and
